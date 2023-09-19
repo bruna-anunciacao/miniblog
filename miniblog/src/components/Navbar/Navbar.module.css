@@ -1,0 +1,46 @@
+.navbarWrapper {
+    padding: 2rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #121212;
+
+    border-bottom: 1px solid #B0B0B0;
+
+}
+
+.navbarLogo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbarLogo span {
+    color: #007BFF;
+}
+
+.navbarWrapper ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.navbarLinks {
+    color: #fff;
+    font-size: 1.3rem;
+
+    transition: .5s;
+}
+
+.navbarLinks:hover {
+    color: #87CEEB;
+}
+
+.active {
+    color: #007BFF;
+    font-size: 1.3rem;
+
+    transition: .5s;
+}
